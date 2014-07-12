@@ -1,7 +1,7 @@
 Package.describe({
     summary: "A Test package",
-    version: "1.0.0",
-    githubUrl: ""
+    version: "1.0.2",
+    githubUrl: "https://github.com/strack/test-package.git"
 });
 
 Package.on_use(function (api) {
