@@ -11,9 +11,6 @@ Package.on_use(function (api) {
     api.versionsFrom('METEOR-CORE@0.9.0-preview5');
 });
 
-Package.on_test(function(api) {
-    api.use('strack:test-package','client');
-}
 
 Npm.depends({
     "colors": "0.6.2"
